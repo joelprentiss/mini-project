@@ -1,9 +1,15 @@
 *{
+      margin:0;
+    padding:0;
+}
+
+body{
+    position: relative;
+    font-size:20px;
+    background-color: beige;
     font-family:Arial, Helvetica, sans-serif
 }
-body{
-    background-color: beige;
-}
+
 header{
     background-color: green;
 }
@@ -11,11 +17,14 @@ header{
 h1{
     text-align: center;
     color: white;
+    background-color: greenyellow;
 }
+
 ul{
     text-align: right;
     color:white
 }
+
 li{
     list-style-type: none;
     display: inline;
@@ -37,9 +46,19 @@ p{
 }
 
 .container{
-    background-color: lightslategray;
-
+    border: 5px solid lightgray;
+    display: inline-block;
 }
+
 #form{
-    display: inline
+    margin:0 auto;
+    display: inline;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
 }
