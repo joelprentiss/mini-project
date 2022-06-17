@@ -1,0 +1,45 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: green;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+ul{
+    text-align: right;
+    color:white
+}
+li{
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+    border: 10px solid green;
+}
+
+p{
+    text-align: center ;
+    font-weight: bolder;
+}
+
+.container{
+    background-color: lightslategray;
+
+}
+#form{
+    display: inline
+}
